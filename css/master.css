@@ -170,7 +170,7 @@ ul {
 @font-face {
   font-family: "LobsterRegular";
   src: url("../fonts/lobsterRegular/lobsterRegular.eot");
-  src: url("../fonts/LobsterRegular/lobsterRegular.eot?#iefix") format("embedded-opentype"),
+  src: url("../fonts/lobsterRegular/lobsterRegular.eot?#iefix") format("embedded-opentype"),
   url("../fonts/lobsterRegular/lobsterRegular.woff") format("woff"),
   url("../fonts/lobsterRegular/lobsterRegular.ttf") format("truetype");
   font-style: normal;
@@ -453,7 +453,7 @@ ul {
   font-size: 21px;
 }
 
-nav-list.active {
+#nav-list.active {
   background-position: -331px top;
 }
 
@@ -1336,7 +1336,7 @@ nav-list.active {
 
 @media (max-width: 450px) {
   .pushmenu {
-    width: 70%;
+    width: 172px;
   }
 
   .footer__item__form_input__left,
@@ -1363,7 +1363,7 @@ nav-list.active {
   }
 
   .pushmenu-push-toright {
-    left: 70%;
+    left: 172px;
   }
 }
 
@@ -1377,4 +1377,4 @@ nav-list.active {
     width: 38px;
     height: 38px;
   }
-}
+}  
