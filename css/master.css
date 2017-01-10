@@ -412,7 +412,7 @@ ul {
     content: '';
     display: block;
     position: absolute;
-    left: 20px;
+    left: 16%;
     bottom: -5px;
     width: 0;
     height: 4px;
